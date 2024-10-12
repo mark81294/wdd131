@@ -46,13 +46,21 @@ nav {
 
 main {
     padding: 20px;
-    max-width: 90%; /* Mobile friendly width */
+    max-width: 90%; /* Mobile-friendly width */
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
 }
 
 figure {
-    margin: 20px 0;
+    margin: 0; /* Remove default figure margin */
     text-align: center;
+}
+
+figure img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 footer {

@@ -14,10 +14,6 @@
         flex-direction: row; /* Horizontal navigation */
     }
 
-    .nav-list li {
-        margin: 0 15px; /* Adjust margin for horizontal spacing */
-    }
-
     main {
         padding: 40px; /* Adjust padding for larger screens */
     }

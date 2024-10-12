@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Keep inline to maintain horizontal list */
     margin: 0 15px;
 }
 

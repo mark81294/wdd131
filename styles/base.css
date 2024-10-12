@@ -43,9 +43,3 @@ footer {
     background-color: #f7cfcf;
     position: relative;
 }
-
-/* Example of a flex container */
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-}

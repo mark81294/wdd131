@@ -1,0 +1,27 @@
+/* Styles for larger view */
+@media (min-width: 600px) {
+    .nav-list {
+        display: flex;
+        justify-content: center; /* Align nav items horizontally */
+    }
+
+    .nav-list li {
+        margin: 0 15px; /* Space between nav items */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main {
+        max-width: 900px; /* Wider content area */
+    }
+
+    figure {
+        display: inline-block; /* Align figure elements in a row */
+        width: calc(33.33% - 20px); /* Three columns layout */
+        margin: 10px; /* Add some space between figures */
+    }
+}

@@ -19,8 +19,6 @@
     }
 
     figure {
-        display: inline-block; /* Allow figures to be inline for larger screens */
-        width: 30%; /* Adjust figure width */
         margin: 20px; /* Adjust margin for spacing */
     }
 }
